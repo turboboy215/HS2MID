@@ -6,6 +6,7 @@ This tool converts music from Game Boy and Game Boy Color games using Hudson Sof
 It works with ROM images. To use it, you must specify the name of the ROM followed by the number of the bank containing the sound data (in hex).
 For games that contain multiple banks of music, you must run the program multiple times specifying where each different bank is located. However, in order to prevent files from being overwritten, the MIDI files from the previous bank must either be moved to a separate folder or renamed. In many games, though, the song numbers between different banks do not "overlap" (the numbers are just null pointers for other banks), so it is safe to overwrite files in those cases. Note also that the first track of most, if not all games is empty. This is normal.
 For Pokémon Card GB2, Game Boy Wars 3, and Poyon no Dungeon Room 2, these are unusual that every bank stores the exact same pointer table, but the song data is only present in one of the banks. This will result in garbled/incoherent MIDIs for songs from the "wrong" bank, so you have to toggle between the different banks until you find the correct one.
+GBKiss Mini Games also uses the driver, but it doesn't seem to have any music.
 This tool was based on disassemblies of Pokémon Trading Card Game and its Japan-only sequel, which can be found at the following links:
 https://github.com/pret/poketcg
 https://github.com/pret/poketcg2
