@@ -29,9 +29,9 @@ Supported games:
   * Felix the Cat
   * From TV Animation Slam Dunk: Gakeppuchi no Kesshou League
   * From TV Animation Slam Dunk 2: Zenkoku heno Tip Off
-  * Game Conveni 21
   * Game Boy Wars 2
   * Game Boy Wars 3
+  * Game Conveni 21
   * GB Genjin Land: Viva Chikkun Oukoku
   * Get Mushi Club: Minna no Konchu Daizukan
   * Guruguru Garakutas
